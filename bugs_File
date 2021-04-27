@@ -1,0 +1,49 @@
+#this file for the bugs that i have in the code but i sure that i have more 😊😂
+#i fix the first 2 but i didn't have an idea to fix the other so plz help me 
+#bugs:
+
+>>> 
+===== RESTART: C:/Users/ABED KHAMIS/Desktop/programming/DatasetCollector.py ====
+Enter your id: 1
+Traceback (most recent call last):
+  File "C:/Users/ABED KHAMIS/Desktop/programming/DatasetCollector.py", line 4, in <module>
+    video = cv2.videoCapture(0)
+AttributeError: module 'cv2.cv2' has no attribute 'videoCapture'
+>>> 
+===== RESTART: C:/Users/ABED KHAMIS/Desktop/programming/DatasetCollector.py ====
+Enter your id: 1
+Traceback (most recent call last):
+  File "C:/Users/ABED KHAMIS/Desktop/programming/DatasetCollector.py", line 9, in <module>
+    faces = facedetect.detectMultiScale(gray,1.3,5)
+cv2.error: OpenCV(4.5.1) C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-wvn_it83\opencv\modules\objdetect\src\cascadedetect.cpp:1689: error: (-215:Assertion failed) !empty() in function 'cv::CascadeClassifier::detectMultiScale'
+
+>>> 
+===== RESTART: C:/Users/ABED KHAMIS/Desktop/programming/DatasetCollector.py ====
+Enter your id: 1
+Traceback (most recent call last):
+  File "C:/Users/ABED KHAMIS/Desktop/programming/DatasetCollector.py", line 9, in <module>
+    faces = facedetect.detectMultiScale(gray,1.3,5)
+cv2.error: OpenCV(4.5.1) C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-wvn_it83\opencv\modules\objdetect\src\cascadedetect.cpp:1689: error: (-215:Assertion failed) !empty() in function 'cv::CascadeClassifier::detectMultiScale'
+
+>>> 
+===== RESTART: C:/Users/ABED KHAMIS/Desktop/programming/DatasetCollector.py ====
+Enter your id: 1
+Traceback (most recent call last):
+  File "C:/Users/ABED KHAMIS/Desktop/programming/DatasetCollector.py", line 9, in <module>
+    faces=facedetect.detectMultiScale(frame,1.3,5)
+cv2.error: OpenCV(4.5.1) C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-wvn_it83\opencv\modules\objdetect\src\cascadedetect.cpp:1689: error: (-215:Assertion failed) !empty() in function 'cv::CascadeClassifier::detectMultiScale'
+
+>>> 
+========= RESTART: C:/Users/ABED KHAMIS/Desktop/programming/dataset.py =========
+Traceback (most recent call last):
+  File "C:/Users/ABED KHAMIS/Desktop/programming/dataset.py", line 9, in <module>
+    faces=facedetect.detectMultiScale(frame,1.3,5)
+cv2.error: OpenCV(4.5.1) C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-wvn_it83\opencv\modules\objdetect\src\cascadedetect.cpp:1689: error: (-215:Assertion failed) !empty() in function 'cv::CascadeClassifier::detectMultiScale'
+
+>>> 
+======= RESTART: C:/Users/ABED KHAMIS/Desktop/programming/TrainingFile.py ======
+Traceback (most recent call last):
+  File "C:/Users/ABED KHAMIS/Desktop/programming/TrainingFile.py", line 6, in <module>
+    recognizer = cv2.face.LBPHFaceRecognizer_create()
+AttributeError: module 'cv2.cv2' has no attribute 'face'
+>>> 
